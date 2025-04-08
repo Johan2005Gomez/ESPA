@@ -1,7 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    var scrollTopButton = document.createElement("button");
-    scrollTopButton.id = "scrollTop";
-    scrollTopButton.innerHTML = "▲"; // Flecha hacia arriba
     document.body.appendChild(scrollTopButton);
 
     // Mostrar la flecha cuando el usuario hace scroll
@@ -17,4 +13,4 @@ document.addEventListener("DOMContentLoaded", function () {
     scrollTopButton.addEventListener("click", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
-});
+
