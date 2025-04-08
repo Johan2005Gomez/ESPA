@@ -60,6 +60,10 @@ section {
     text-align: left;
 }
 
+section p {
+    text-align: justify;
+}
+
 /* Galería responsive */
 .wrapper {
     display: grid;
@@ -176,54 +180,12 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+
     .wrapper {
         grid-template-columns: 1fr;
     }
+
     .mobile-section {
         display: block;
     }
-}
-
-/* Estilos específicos de la página de inicio */
-.logo {
-    max-width: 200px;
-    margin: 20px auto;
-    display: block;
-}
-
-body > h1 {
-    color: #333;
-    margin: 20px;
-    font-size: 2em;
-    text-align: center;
-}
-
-body > p {
-    color: #666;
-    margin: 20px;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
-.box {
-    background-color: #009379;
-    color: white;
-    padding: 20px 40px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    transition: all 0.3s ease;
-}
-
-.box:hover {
-    background-color: #FE4F2D;
-    transform: translateY(-3px);
 }
